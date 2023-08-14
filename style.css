@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    padding: 5em;
+    background: #5500ff;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    color: white;
+}
+.containerText {
+    padding-top: 2em;
+    font-weight: 700;
+}
